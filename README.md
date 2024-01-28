@@ -3,15 +3,20 @@ This GitHub repository demonstrates the utilization of UNETR for Human Hair Segm
 
 ## Architecture
 
+| ![The block diagram of the Original UNETR model.](figures/unetr_architecture.png) |
+| :--: |
+| *The block diagram of the Original UNETR model.* |
+
 ## Dataset
 Privacy-Preserving Portrait Matting Dataset (P3M-10k) is used for the training and validation. P3M-10k contains 10421 high-resolution real-world face-blurred portrait images, along with their manually labeled alpha mattes.<br/> <br/>
 Download the dataset: Soon.
 
 ## Results
 The sequence in the images below is `Input Image`, `Ground Truth` and `Prediction`. <br/> <br/>
-![](results/92.jpg)
-![](results/595.jpg)
-![](results/626.jpg)
+| ![](results/92.jpg) |
+| :--: |
+| ![](results/595.jpg) |
+| ![](results/626.jpg) |
 
 ## How to improve
 - Train on more epochs.
